@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>个人中心</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <h1>乐昌文旅</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="spots.html">景点介绍</a></li>
+      <li><a href="calendar.html">活动日历</a></li>
+      <li><a href="register.html">用户注册</a></li>
+      <li><a href="login.html">用户登录</a></li>
+      <li><a href="profile.html">个人中心</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="profile">
+    <h2>个人信息</h2>
+    <p id="username">用户名：张三</p>
+    <p id="email">邮箱：zhangsan@example.com</p>
+    <p id="phone">电话：123-456-7890</p>
+    <button onclick="editProfile()">编辑</button>
+  </section>
+  <section class="history">
+    <h2>浏览历史</h2>
+    <ul id="history-list">
+      <li><a href="#">内容1</a></li>
+      <li><a href="#">内容2</a></li>
+      <li><a href="#">内容3</a></li>
+    </ul>
+  </section>
+  <section class="favorites">
+    <h2>收藏夹</h2>
+    <ul id="favorites-list">
+      <li><a href="#">内容1</a></li>
+      <li><a href="#">内容2</a></li>
+      <li><a href="#">内容3</a></li>
+    </ul>
+  </section>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
